@@ -1,0 +1,129 @@
+/* Save this as style.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #66a6ff;
+    border-radius: 8px;
+    background-color: #f1f9ff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0; /* Initially hidden */
+}
+
+/* Display the result div with animation */
+.result.show {
+    opacity: 1; /* Make it visible */
+    transform: scale(1.05); /* Add a subtle zoom effect */
+}
+.container {
+    background-color: #ffffff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 25px 35px;
+    border-radius: 12px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    font-size: 26px;
+    color: #3b5998;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+form p {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #66a6ff;
+    outline: none;
+}
+
+button {
+    background: linear-gradient(135deg, #66a6ff, #89f7fe);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #57a0ff, #78e8fc);
+    transform: scale(1.05);
+}
+
+.weight_guide {
+    margin-top: 30px;
+    text-align: left;
+    background-color: #f1f9ff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.weight_guide h2 {
+    font-size: 18px;
+    color: #3b5998;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.weight_guide p {
+    font-size: 14px;
+    color: #555555;
+    margin: 8px 0;
+    font-weight: 500;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
