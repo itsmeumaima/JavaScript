@@ -1,6 +1,6 @@
-body {
+body { 
     font-family: Arial, sans-serif;
-    background-color: #e3f2fd; /* Light Blue background */
+    background-color: #fbe9e7; /* Light Peach background */
     margin: 0;
     padding: 0;
     display: flex;
@@ -16,11 +16,11 @@ body {
     padding: 30px;
     width: 400px;
     text-align: center;
-    border: 2px solid #90caf9; /* Light Blue border */
+    border: 2px solid #ffab91; /* Light Coral border */
 }
 
 h1 {
-    color: #0288d1; /* Deep Blue */
+    color: #d84315; /* Deep Orange */
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -37,7 +37,7 @@ p {
 
 label {
     font-size: 14px;
-    color: #1e88e5; /* Blue color for labels */
+    color: #bf360c; /* Brownish Orange for labels */
 }
 
 input[type="text"] {
@@ -45,14 +45,14 @@ input[type="text"] {
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
-    border: 1px solid #0288d1; /* Deep Blue border */
+    border: 1px solid #d84315; /* Deep Orange border */
     border-radius: 5px;
     font-size: 16px;
-    background-color: #e3f2fd; /* Light blue background for input */
+    background-color: #ffccbc; /* Light Coral background for input */
 }
 
 input[type="submit"] {
-    background-color: #0288d1; /* Deep Blue */
+    background-color: #d84315; /* Deep Orange */
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -63,7 +63,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #01579b; /* Darker blue on hover */
+    background-color: #bf360c; /* Darker Orange on hover */
 }
 
 .result {
@@ -76,12 +76,12 @@ input[type="submit"]:hover {
 
 span {
     font-weight: bold;
-    color: #0288d1; /* Deep Blue */
+    color: #d84315; /* Deep Orange */
 }
 
 .lowOrHi {
     margin-top: 10px;
     font-size: 14px;
     font-style: italic;
-    color: #d32f2f; /* Red color for low/high hints */
+    color: #c62828; /* Red for low/high hints */
 }
