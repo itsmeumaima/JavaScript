@@ -37,3 +37,11 @@ This mini-project, "Guess the Number," is an interactive web-based game where pl
 A simple calculator is a fundamental tool that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. It allows users to input two numbers, select an operation, and instantly receive a calculated result. This project, built using HTML, CSS, and JavaScript, provides an interactive and user-friendly interface for quick calculations. The JavaScript logic ensures error handling for invalid inputs and prevents division by zero, making the calculator both efficient and reliable. 
 
 ![pic5](image-3.png)
+
+## Project 06
+
+### To do List 
+
+This To-Do List mini-project is a simple web application built using HTML, CSS, and JavaScript, allowing users to add, view, and delete tasks dynamically. It features a clean and interactive UI where tasks appear in a structured list, with an option to remove them easily. Error handling ensures users enter valid tasks, enhancing usability. 
+
+![pic6](image-5.png)
